@@ -36,7 +36,7 @@ export function Header() {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <header className="fixed inset-x-0 top-0 z-[100] bg-white">
+    <header className="fixed inset-x-0 top-0 z-[120] bg-white">
       <div className="relative flex h-20 w-full items-center justify-between px-5 lg:px-16">
         <Link href="#hero" aria-label="Tu7uhari Coffee home" className="flex items-center">
           <img src="/images/logo.png" alt="Tu7uhari Coffee" className="h-8 w-auto lg:h-9" />
@@ -47,7 +47,7 @@ export function Header() {
           onClick={() => setIsOpen((v) => !v)}
           aria-label={isOpen ? 'Close menu' : 'Open menu'}
           aria-expanded={isOpen}
-          className="relative z-[110] flex h-10 w-10 items-center justify-center text-brand-ink"
+          className={`relative z-[130] flex h-10 w-10 items-center justify-center ${isOpen ? 'text-white' : 'text-brand-ink'}`}
         >
           <MenuToggleIcon open={isOpen} />
         </button>

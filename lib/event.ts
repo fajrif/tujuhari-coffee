@@ -32,4 +32,32 @@ export const events: PastEvent[] = [
     image: '/images/event-3.png',
     alt: 'String and accordion trio performing a classical recital',
   },
+  {
+    id: 'turnamen-catur-wijaya-vol-1',
+    title: 'Turnamen Catur Wijaya Vol. 1',
+    description: '-',
+    image: '/images/event-4.png',
+    alt: 'Chess tournament event at Wijaya',
+  },
+  {
+    id: 'life-after-98',
+    title: 'Life After 98',
+    description: 'A fashion show by Nichol Elenna and exhibition by Rully Kesuma. Supported by Persona Management',
+    image: '/images/event-5.png',
+    alt: 'Fashion show and exhibition event',
+  },
+  {
+    id: 'an-infinite-exploration',
+    title: 'An Infinite Exploration',
+    description: 'Timeless Seeds [with Hijack Sandals and Bluesville',
+    image: '/images/event-6.png',
+    alt: 'An Infinite Exploration event',
+  },
+  {
+    id: 'garden-riot',
+    title: 'Garden Riot',
+    description: 'A photography exhibition by DISK, featuring Ezra R., Vivien Nathania, and Chelsea Pearl',
+    image: '/images/event-7.png',
+    alt: 'Photography exhibition by DISK',
+  },
 ]

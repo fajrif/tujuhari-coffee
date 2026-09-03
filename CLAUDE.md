@@ -40,3 +40,34 @@ There is no test suite configured.
 **Fonts:** a single custom font family ("NB International", regular + bold woff2 in `app/fonts/`) is loaded once in `app/layout.tsx` via `next/font/local` and exposed as `--font-nb-international`, mapped to `--font-sans`/`--font-title`/`--font-body` in `globals.css`.
 
 **Analytics:** `@vercel/analytics` is mounted in `app/layout.tsx` gated on `NODE_ENV === 'production'` — don't remove that guard.
+
+## TASKS
+
+please make additional events with these additional JSON,
+you will need to adjust for id and alt.
+
+```json
+```
+{
+  title: "Turnamen Catur Wijaya Vol. 1",
+  description: "-",
+  image: '/images/event-4.png',
+},
+{
+  title: "Life After 98",
+  description: "A fashion show by Nichol Elenna and exhibition by Rully Kesuma. Supported by Persona Management",
+  image: '/images/event-5.png',
+},
+
+{
+  title: "An Infinite Exploration",
+  description: "Timeless Seeds [with Hijack Sandals and Bluesville",
+  image: '/images/event-6.png',
+},
+{
+  title: "Garden Riot" ,
+  description: "A photography exhibition by DISK, featuring Ezra R., Vivien Nathania, and Chelsea Pearl",
+  image: '/images/event-7.png',
+},
+```
+```

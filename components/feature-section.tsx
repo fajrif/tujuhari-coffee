@@ -14,7 +14,7 @@ export function FeatureSection() {
         {features.map((feature, i) => (
           <Reveal key={feature.id} direction="up" delay={i * 100}>
             <div
-              className="relative overflow-hidden group lg:h-[420px] lg:overflow-hidden lg:cursor-pointer lg:h-[420px] lg:lg:h-[520px]"
+              className="relative min-h-[400px] overflow-hidden group lg:min-h-0 lg:h-[420px] lg:overflow-hidden lg:cursor-pointer"
               onMouseEnter={() => setHoveredId(feature.id)}
               onMouseLeave={() => setHoveredId(null)}
             >

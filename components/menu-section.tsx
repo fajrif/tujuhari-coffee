@@ -8,9 +8,9 @@ import { externalLinks } from '@/lib/site-config'
 export function MenuSection() {
   return (
     <section id="menu" className="scroll-mt-20 py-16 lg:py-20">
-      <div className="mb-8 flex items-center justify-between px-5 lg:px-16">
+      <div className="mb-8 flex flex-col items-start justify-between gap-4 px-5 lg:flex-row lg:items-center lg:px-16">
         <h2 className="font-title text-2xl uppercase tracking-wide text-brand-ink">Explore Our Menu</h2>
-        <PillButton href={externalLinks.menuUrl} external>
+        <PillButton href={externalLinks.menuUrl} external className="hidden lg:inline-block">
           What&apos;s On The Menu
         </PillButton>
       </div>
@@ -28,6 +28,12 @@ export function MenuSection() {
         <CarouselPrevious className="left-2 size-9 border-transparent bg-brand-ink/70 text-white hover:bg-brand-ink/90 lg:left-6" />
         <CarouselNext className="right-2 size-9 border-transparent bg-brand-ink/70 text-white hover:bg-brand-ink/90 lg:right-6" />
       </Carousel>
+
+      <div className="mt-8 flex justify-center px-5 lg:hidden">
+        <PillButton href={externalLinks.menuUrl} external>
+          What&apos;s On The Menu
+        </PillButton>
+      </div>
     </section>
   )
 }

@@ -6,7 +6,30 @@ import { heroCopy } from '@/lib/site-config'
 export function HeroSection() {
   return (
     <section id="hero" className="scroll-mt-20 px-5 pb-5 pt-20 lg:px-16 lg:pb-10 lg:pt-24">
-      <div className="relative flex aspect-[1397/737] w-full items-end overflow-hidden">
+      {/* Mobile Banner */}
+      <div className="lg:hidden">
+        <div className="relative w-full overflow-hidden">
+          <motion.img
+            src="/images/hero-mobile-banner.png"
+            alt="Stacked Tu7uhari Coffee branded paper cups with description"
+            className="w-full"
+            initial={{ opacity: 0 }}
+            animate={{ opacity: 1 }}
+            transition={{ duration: 0.8 }}
+          />
+        </div>
+        <motion.p
+          className="mt-6 font-body text-base leading-relaxed text-brand-ink"
+          initial={{ opacity: 0 }}
+          animate={{ opacity: 1 }}
+          transition={{ duration: 0.8, delay: 0.3 }}
+        >
+          {heroCopy}
+        </motion.p>
+      </div>
+
+      {/* Desktop Banner */}
+      <div className="relative hidden aspect-[1397/737] w-full items-end overflow-hidden lg:flex">
         <motion.img
           src="/images/hero-banner.png"
           alt="Stacked Tu7uhari Coffee branded paper cups"
