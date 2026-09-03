@@ -22,8 +22,8 @@ export function PastEventsSection() {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious className="left-2 size-9 border-transparent bg-brand-ink/70 text-white hover:bg-brand-ink/90 lg:left-6" />
-        <CarouselNext className="right-6 size-9 border-transparent bg-brand-ink/70 text-white hover:bg-brand-ink/90 lg:right-10" />
+        <CarouselPrevious className="left-2 size-9 border-transparent bg-brand-ink/70 text-white hover:bg-brand-ink/90 hover:text-white/80 lg:left-6" />
+        <CarouselNext className="right-6 size-9 border-transparent bg-brand-ink/70 text-white hover:bg-brand-ink/90 hover:text-white/80 lg:right-10" />
       </Carousel>
     </section>
   )

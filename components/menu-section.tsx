@@ -25,8 +25,8 @@ export function MenuSection() {
             </CarouselItem>
           ))}
         </CarouselContent>
-        <CarouselPrevious className="left-2 size-9 border-transparent bg-brand-ink/70 text-white hover:bg-brand-ink/90 lg:left-6" />
-        <CarouselNext className="right-2 size-9 border-transparent bg-brand-ink/70 text-white hover:bg-brand-ink/90 lg:right-6" />
+        <CarouselPrevious className="left-2 size-9 border-transparent bg-brand-ink/70 text-white hover:bg-brand-ink/90 hover:text-white/80 lg:left-6" />
+        <CarouselNext className="right-2 size-9 border-transparent bg-brand-ink/70 text-white hover:bg-brand-ink/90 hover:text-white/80 lg:right-6" />
       </Carousel>
 
       <div className="mt-8 flex justify-center px-5 lg:hidden">
