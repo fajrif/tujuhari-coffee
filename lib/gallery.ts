@@ -12,5 +12,4 @@ export const galleryImages: GalleryImage[] = [
   { id: 'gallery-5', src: '/images/gallery-5.png', alt: 'Gallery space view' },
   { id: 'gallery-6', src: '/images/gallery-6.png', alt: 'Gallery space view' },
   { id: 'gallery-7', src: '/images/gallery-7.png', alt: 'Gallery space view' },
-  { id: 'gallery-8', src: '/images/gallery-8.png', alt: 'Gallery space view' },
 ]
