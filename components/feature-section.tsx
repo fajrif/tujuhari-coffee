@@ -14,14 +14,14 @@ export function FeatureSection() {
         {features.map((feature, i) => (
           <Reveal key={feature.id} direction="up" delay={i * 100}>
             <div
-              className="relative min-h-[400px] overflow-hidden group lg:min-h-0 lg:h-[420px] lg:overflow-hidden lg:cursor-pointer"
+              className="relative overflow-hidden group lg:overflow-hidden lg:cursor-pointer"
               onMouseEnter={() => setHoveredId(feature.id)}
               onMouseLeave={() => setHoveredId(null)}
             >
               <motion.img
                 src={feature.image}
                 alt={feature.alt}
-                className="absolute inset-0 h-full w-full object-cover"
+                className="block w-full object-cover"
                 animate={{ scale: hoveredId === feature.id ? 1.05 : 1 }}
                 transition={{ duration: 0.3 }}
               />
@@ -29,7 +29,7 @@ export function FeatureSection() {
                 {feature.label}
               </span>
               {/* Mobile: Always full overlay */}
-              <div className="lg:hidden aspect-[4/3] absolute inset-x-0 bottom-0 bg-black/70 p-6">
+              <div className="lg:hidden absolute inset-x-0 bottom-0 bg-black/70 p-6">
                 <p className="text-sm leading-relaxed text-white/90">
                   {feature.body}
                 </p>
