@@ -48,10 +48,4 @@ export const locations: Location[] = [
     shopeefoodUrl:
       'https://shopee.co.id/universal-link/now-food/shop/21829224?deep_and_deferred=1&shareChannel=whatsapp',
   },
-  {
-    id: 'coming-soon',
-    name: 'Coming Soon',
-    status: 'coming-soon',
-    addressLines: ['Coming Soon'],
-  },
 ]
