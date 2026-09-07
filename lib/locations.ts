@@ -29,7 +29,7 @@ export const locations: Location[] = [
     whatsappUrl: 'https://wa.me/628111095777',
     gofoodUrl: 'https://gofood.link/u/WAxbG',
     grabfoodUrl:
-      'https://r.grab.com/g/620241119_151035_69C9EDC68CFB43EFAFE0ABD8282C23B2_MEXMPS-6-CYMGETADUALDLN',
+      'https://food.grab.com/id/id/restaurant/tujuhari-coffee-pulo-delivery/6-CYMGETADUALDLN?',
     shopeefoodUrl:
       'https://shopee.co.id/universal-link/now-food/shop/860979?deep_and_deferred=1&shareChannel=copy_link',
   },
