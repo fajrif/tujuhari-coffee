@@ -17,7 +17,7 @@ export function FlagshipStoreSection() {
           </PillButton>
         </div>
         <div className="mx-auto w-full max-w-sm">
-          <video src="https://res.cloudinary.com/sawybqwk/video/upload/fvc:vcodec.h264/v1788446327/space-modules-video.mp4" poster="/images/img-layout.png" className="aspect-square w-full" autoPlay loop muted playsInline />
+          <video src="https://res.cloudinary.com/sawybqwk/video/upload/v1788446327/space-modules-video.mp4" poster="/images/img-layout.png" className="aspect-square w-full" autoPlay loop muted playsInline />
         </div>
       </div>
     </section>
