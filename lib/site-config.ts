@@ -20,7 +20,7 @@ export interface NavLink {
 // "Online Order" has no single sitewide ordering URL in the source data —
 // routes to Locations so visitors pick a store's delivery platform.
 export const navLinks: NavLink[] = [
-  { label: 'About', href: '#signature' },
+  { label: 'About', href: '#about' },
   { label: 'Menu', href: '#menu' },
   { label: 'Space', href: '#flagship-store' },
   { label: 'Online Order', href: '#locations' },

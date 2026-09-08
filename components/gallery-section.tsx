@@ -5,7 +5,7 @@ import { galleryImages } from '@/lib/gallery'
 
 export function GallerySection() {
   return (
-    <section id="gallery" className="scroll-mt-20 bg-brand-grey/25 pb-0 pt-10">
+    <section id="gallery" className="scroll-mt-20 pb-0 pt-16">
       <h2 className="mb-8 text-center font-title text-2xl uppercase tracking-wide text-brand-ink">
         Space Gallery
       </h2>
