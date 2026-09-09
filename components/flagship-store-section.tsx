@@ -3,7 +3,11 @@ import { externalLinks } from '@/lib/site-config'
 
 export function FlagshipStoreSection() {
   return (
-    <section id="flagship-store" className="scroll-mt-20 bg-brand-light-grey py-10">
+    // bg matches the video's actual baked-in background (#bbbdbd, sampled from the
+    // source file) rather than brand-light-grey — browsers decode the video's
+    // limited-range color slightly differently, so matching the true pixel value
+    // (instead of the token) avoids a visible seam around the video edges.
+    <section id="flagship-store" className="scroll-mt-20 bg-[#bbbdbd] py-10">
       <div className="grid grid-cols-1 items-center gap-10 px-5 lg:grid-cols-2 lg:gap-16 lg:px-16">
         <div className="lg:ml-20">
           <h2 className="mb-6 font-title text-2xl uppercase tracking-wide text-brand-ink">Our Space</h2>
