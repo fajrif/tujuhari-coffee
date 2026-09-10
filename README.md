@@ -39,7 +39,7 @@ Lebak Bulus [https://maps.app.goo.gl/9wvvzY8bLxP9Lf5R6]
 
 Contact us
 [text no whatsapp] [https://wa.me/6281944320777]
-[text email] [mailto:halo.tujuhari@gmail.com]
+[text email] [mailto:halo@tujuhari.id]
 
 Grand Wijaya Centre B 8-9
 Kebayoran Baru, South Jakarta,

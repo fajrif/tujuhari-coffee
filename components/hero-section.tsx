@@ -5,7 +5,7 @@ import { heroCopy } from '@/lib/site-config'
 
 export function HeroSection() {
   return (
-    <section id="hero" className="scroll-mt-20 px-5 pb-5 pt-20 lg:px-16 lg:pb-10 lg:pt-24">
+    <section id="about" className="scroll-mt-20 px-5 pb-5 pt-20 lg:px-16 lg:pb-10 lg:pt-24">
       <div className="w-full overflow-hidden">
         <motion.img
           src="/images/hero-mobile-banner.png"

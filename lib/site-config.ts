@@ -39,7 +39,7 @@ export const socialLinks = {
 export const contactInfo = {
   whatsapp: 'https://wa.me/6281944320777',
   whatsappLabel: '+62 819-4432-0777',
-  email: 'halo.tujuhari@gmail.com',
+  email: 'halo@tujuhari.id',
   hqAddressLines: ['Grand Wijaya Centre B 8-9', 'Kebayoran Baru, South Jakarta,', 'Indonesia'],
 }
 
